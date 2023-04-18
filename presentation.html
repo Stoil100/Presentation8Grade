@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="presentation.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>CSS - Cascading Style Sheets</h1>
+    </header>
+    <section class="content">
+        <h2 class="contentTitle">This is a div, it holds other elements called children in it</h2>
+        <div class="contentBox divBox">
+            <h3 id="child">I am #1</h3>
+            <h3 id="child">I am #2</h3>
+        </div>
+    </section>
+    <section class="content">
+        <h2 class="contentTitle">This is a div that has a border</h2>
+        <div class="contentBox borderBox">
+            <p>.className{<br> border: 10px solid #E74646;<br>border-radius:10px;<br>}</p>
+        </div>
+    </section>
+    <section class="content">
+        <div class="contentBox">
+            <div class="displayBox">
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+            </div>
+            <p>.className{<br>display:flex;<br> justify-content:center;<br>align-items:center;<br>}</p>
+        </div>
+        <h2 class="contentTitle">This is a box has a display property which interacts with its children</h2>
+    </section>
+    <section class="content">
+        <div class="contentBox hoverBox">
+            <p>.className:hover{<br>transform:scale(1.1);<br>}</p>
+        </div>
+        <h2 class="contentTitle">This one has an animation when hovered</h2>
+    </section>
+    <footer class="footer">
+        <p>Made by Stoil</p>
+    </footer>
+</body>
+
+</html>
