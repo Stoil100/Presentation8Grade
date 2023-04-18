@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dinq{
+    border:10px solid red;
+    border-radius: 10px;
+    width: 80%;
+    height: 60vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.banan{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border: 10px solid green;
+}
